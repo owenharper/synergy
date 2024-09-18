@@ -1,0 +1,13 @@
+{
+  "name": "OCaml Dev Environment",
+  "image": "ocaml/opam:alpine-3.14-ocaml-4.14", 
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ocamllabs.ocaml-platform"  // VSCode OCaml extension
+      ]
+    }
+  },
+  "postCreateCommand": "opam init --disable-sandboxing -a && opam install dune merlin --yes",
+  "forwardPorts": [3000]
+}
