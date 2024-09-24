@@ -1,0 +1,4 @@
+(executable
+ (public_name synergy)
+ (name main)
+ (libraries synergy))

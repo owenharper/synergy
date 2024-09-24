@@ -1,0 +1,6 @@
+# dune init project synergy
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/vscode/.cache/dune/db
+# Workspace root: /workspaces/synergy/synergy
+# Auto-detected concurrency: 2

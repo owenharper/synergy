@@ -1,0 +1,3 @@
+opam install ocaml-lsp-server odoc ocamlformat utop
+opam init --disable-sandboxing -a
+eval $(opam env)
